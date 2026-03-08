@@ -1,0 +1,22 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CARD STYLES */
+.profile-card{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin:auto;
+    width: 100vh;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
