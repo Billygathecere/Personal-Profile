@@ -135,5 +135,28 @@ body{
 }
 
 /* Documents */
+.documents{
+    background-color: rgb(159, 150, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 85vh;
+    border-radius: 20px;
+}
+
+.doc-1, .doc-2, .doc-3, .doc-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80vh;
+    height: 5vh;
+    background-color: #f6ebeb;
+    border-radius: 20px;
+}
 
 
