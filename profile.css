@@ -17,12 +17,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgb(158, 149, 149);
+    background-color: rgba(189, 179, 179, 0.742);
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 50px;
     margin:auto;
-    width: 200vh;
+    width: 180vh;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -189,6 +189,19 @@ body{
     cursor: pointer;
     color: #27d71a;
     font-size: 30px;
+}
+
+/* Biography */
+.bio{
+    background-color: rgb(159, 150, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -550px;
+    color: white;
 }
 
 
