@@ -12,11 +12,17 @@ body{
 
 /* CARD STYLES */
 .profile-card{
+    background-image: url(./Images/Ac3fb0c8b9172439eb16b9ce2de3ffa50l.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(158, 149, 149);
     margin-left: 50%;
     margin-right: 50%;
+    margin-top: 50px;
     margin:auto;
     width: 200vh;
-    background-color: #fff;
     border-radius: 10px;
     display: flex;
     align-items: center;
