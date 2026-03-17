@@ -41,8 +41,8 @@ body{
 }
 
 .profile-image img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -115,21 +115,22 @@ body{
 
 .projects{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-right: 20px;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 80vh;
+    width: 90vh;
     height: 30vh;
-    background-color: #f6ebeb;
+    background-color: #777272;
     border-radius: 20px;
 }
 
 .projects img{
-    width: 120px;
-    height: 120px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
 }
 
 .project-1, .project-2, .project-3, .project-4{
@@ -240,6 +241,37 @@ input{
     padding: 20px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* socials */
+.social-icons{
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vh;
+    height: 5vh;
+    border-radius: 20px;
+}
+
+.social-icons i{
+    color: #1ac1d7;
+    font-size: 30px;
+}
+
+.fa-linkedin{
+    cursor: pointer;
+}
+
+.fa-instagram{
+    cursor: pointer;
+    color: pink;
+}
+
+.fa-github{
+    cursor: pointer;
+    color: black;
 }
 
 
