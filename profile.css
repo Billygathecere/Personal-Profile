@@ -17,7 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(189, 179, 179, 0.742);
+    background-color: rgba(189, 179, 179, 0.2);
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 50px;
